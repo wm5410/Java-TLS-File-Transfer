@@ -1,0 +1,32 @@
+Step 1
+------
+
+A: Passphrase for ca-private.pem:toytoy
+
+
+B: Password for ca-cert.jks:yesyes
+
+
+C: The CA's certificate fingerprint (SHA256) in ca-cert.jks:35:8F:78:8A:39:6A:54:C7:EC:6F:B2:14:10:DD:C5:4F:B6:68:4B:83:C2:24:93:C8:1C:92:2E:41:E7:B9:2B:24
+
+
+Step 2
+------
+
+D: Passphrase for server.jks:freaks 
+
+
+E: The CA's certificate fingerprint (SHA256) in server.jks:35:8F:78:8A:39:6A:54:C7:EC:6F:B2:14:10:DD:C5:4F:B6:68:4B:83:C2:24:93:C8:1C:92:2E:41:E7:B9:2B:24
+
+
+
+Step 4
+------
+
+F: The exception from the first command:javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+
+
+G: The exception from the second command:No name matching localhost found
+
+
+
